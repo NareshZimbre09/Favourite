@@ -1,0 +1,10 @@
+n=int(input("Enter a number"))
+first_term=1
+print(first_term,end=" ")
+second_term=1
+print(second_term,end=" ")
+for i in range(2,n):
+       next_term=first_term+second_term
+       print(next_term,end=" ")
+       first_term=second_term
+       second_term=next_term
